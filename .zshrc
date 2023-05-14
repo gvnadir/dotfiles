@@ -110,3 +110,5 @@ alias hdmi-off="~/.config/i3/script/xrandr_hdmi_off.sh"
 alias kali-up="vboxmanage startvm kali-linux-2023.1-virtualbox-amd64"
 alias kali-down="vboxmanage controlvm kali-linux-2023.1-virtualbox-amd64 poweroff"
 alias config='/usr/bin/git --git-dir=/home/nadir/dotfiles/ --work-tree=/home/nadir'
+
+export PATH="$HOME/bin:$PATH"
