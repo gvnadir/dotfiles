@@ -102,11 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias main-on="~/.config/i3/script/xrandr_main_on.sh"
-alias main-off="~/.config/i3/script/xrandr_main_off.sh"
-alias hdmi-wide-plug="~/.config/i3/script/xrandr_hdmi_wide_plug.sh"
-alias hdmi-plug="~/.config/i3/script/xrandr_hdmi_plug.sh"
-alias hdmi-off="~/.config/i3/script/xrandr_hdmi_off.sh"
 alias kali-up="vboxmanage startvm kali-linux-2023.1-virtualbox-amd64"
 alias kali-down="vboxmanage controlvm kali-linux-2023.1-virtualbox-amd64 poweroff"
 alias config='/usr/bin/git --git-dir=/home/nadir/dotfiles/ --work-tree=/home/nadir'
