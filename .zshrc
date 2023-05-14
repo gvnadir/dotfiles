@@ -104,6 +104,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias kali-up="vboxmanage startvm kali-linux-2023.1-virtualbox-amd64"
 alias kali-down="vboxmanage controlvm kali-linux-2023.1-virtualbox-amd64 poweroff"
-alias config='/usr/bin/git --git-dir=/home/nadir/dotfiles/ --work-tree=/home/nadir'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 export PATH="$HOME/bin:$PATH"
