@@ -229,3 +229,4 @@ bindsym Control+$mod+l exec "i3lock -c 000000"
 exec_always feh --bg-fill /home/nadir/Pictures/dope.jpeg
 
 bindsym Ctrl+$mod+b exec brave
+bindsym Ctrl+$mod+d exec discord
