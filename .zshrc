@@ -1,6 +1,3 @@
-# autorun tmux
-if [ "$TMUX" = "" ]; then tmux; fi
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -102,8 +99,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias kali-up="vboxmanage startvm kali-linux-2023.1-virtualbox-amd64"
-alias kali-down="vboxmanage controlvm kali-linux-2023.1-virtualbox-amd64 poweroff"
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-
-export PATH="$HOME/bin:$PATH"
+source /etc/zsh_command_not_found
+export PATH="$PATH:$HOME/.local/bin"
