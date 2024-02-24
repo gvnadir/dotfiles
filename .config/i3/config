@@ -221,13 +221,12 @@ bindsym $mod+p exec --no-startup-id maim --window $(xdotool getactivewindow) "/h
 
 # auto lock the screen
 # requires sudo apt xautolock
-exec "xautolock -detectsleep -time 3 -locker \"i3lock -c 000000\" && systemctl suspend"
+# exec "xautolock -detectsleep -time 3 -locker \"i3lock -c 000000\""
 
-# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
-# screen before suspend. Use loginctl lock-session to lock your screen.
-# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork --color=000000
+# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the screen before suspend. Use loginctl lock-session to lock your screen.
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # keybindings
 bindsym $mod+b exec brave
 bindsym $mod+Return exec alacritty
-bindsym $mod+Control+l exec "i3lock -c 000000 && systemctl suspend"
+bindsym $mod+Control+l exec "i3lock -c 000000"
