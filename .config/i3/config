@@ -100,7 +100,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+# bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -144,6 +144,18 @@ bindsym $mod+Shift+7 move container to workspace number $ws7
 bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
+
+
+# assign specific app to workspaces
+# use xprop to find the class name
+# assign [class="Alacritty"] $ws1
+assign [class="Gnome-terminal"] $ws1
+assign [class="Brave"] $ws2
+assign [class="Code"] $ws3
+assign [class="vlc"] $ws4
+
+exec --no-startup-id sleep 1 && i3-msg 'workspace 10; exec firefox https://www.youtube.com/@LofiGirl'
+exec --no-startup-id sleep 1 && i3-msg 'workspace 10; exec firefox https://web.whatsapp.com'
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -205,23 +217,30 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
 # set wallpaper 
 # requires sudo apt install feh
-exec_always feh --bg-fill ~/Pictures/mr-robot.jpg
+# exec_always feh --bg-fill ~/Pictures/mountain2.jpg
 
 # requires sudo apt install arandr
 # exec the arandr config for multimonitors
-exec_always xrandr --output eDP1 --mode 1680x1050 --pos 0x0 --rotate normal --output DP1 --off --output DP2 --off --output HDMI1 --off --output HDMI2 --mode 1920x1200 --pos 4240x0 --rotate left --output HDMI3 --primary --mode 2560x1080 --pos 1680x0 --rotate normal --output VIRTUAL1 --off
+exec_always xrandr --output eDP1 --mode 1680x1050 --pos 0x0 --rotate normal --output DP1 --off --output DP2 --off --output HDMI1 --mode 1920x1200 --pos 4240x0 --rotate left --output HDMI2 --off --output HDMI3 --primary --mode 2560x1080 --pos 1680x0 --rotate normal --output VIRTUAL1 --off
 
 # assign workspace to monitors
-# workspace 1 output eDP1
-# workspace 2 output HDMI3
-# workspace 3 output HDMI2
+workspace 1 output eDP1
+workspace 3 output HDMI3
+workspace 2 output HDMI2
 
 # add compose key mapped to right alt
-exec --no-startup-id setxkbmap -option compose:ralt
+exec_always --no-startup-id setxkbmap -option compose:ralt
 
-# requires sudo apt install maim xclip
+exec --no-startup-id setxkbmap us
+# exec_always --no-startup-id setxkbmap it
+bindsym $mod+Shift+u exec --no-startup-id setxkbmap us
+bindsym $mod+Shift+i exec --no-startup-id setxkbmap it
+
+# requires sudo apt install maim xclip xdotool
 ## Clipboard Screenshots
-# bindsym $mod+p exec --no-startup-id maim "/home/nadir/Pictures/Screenshots/$(date)" | xclip -selection clipboard -t image/png
+bindsym $mod+Shift+p exec --no-startup-id maim --select "/home/nadir/Pictures/Screenshots/$(date)" | xclip -selection clipboard -t image/png
+
+# bindsym $mod+Contrl+p exec --no-startup-id maim "/home/nadir/Pictures/Screenshots/$(date)" | xclip -selection clipboard -t image/png
 bindsym $mod+p exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/nadir/Pictures/Screenshots/$(date)" | xclip -selection clipboard -t image/png
 
 # auto lock the screen
@@ -233,7 +252,8 @@ bindsym $mod+p exec --no-startup-id maim --window $(xdotool getactivewindow) "/h
 
 # keybindings
 bindsym $mod+b exec brave
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec gnome-terminal
 # bindsym $mod+Control+l exec "i3lock -c 000000"
 bindsym $mod+c exec zenity --calendar
 bindsym $mod+Control+l exec --no-startup-id i3lock -c 000000 & sleep 5 && xset dpms force off
+bindsym $mod+space exec --no-startup-id setxkbmap -layout us,it -option grp:alt_shift_toggle
