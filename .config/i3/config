@@ -232,9 +232,6 @@ workspace 2 output HDMI2
 exec_always --no-startup-id setxkbmap -option compose:ralt
 
 exec --no-startup-id setxkbmap us
-# exec_always --no-startup-id setxkbmap it
-bindsym $mod+Shift+u exec --no-startup-id setxkbmap us
-bindsym $mod+Shift+i exec --no-startup-id setxkbmap it
 
 # requires sudo apt install maim xclip xdotool
 ## Clipboard Screenshots
@@ -256,4 +253,6 @@ bindsym $mod+Return exec gnome-terminal
 # bindsym $mod+Control+l exec "i3lock -c 000000"
 bindsym $mod+c exec zenity --calendar
 bindsym $mod+Control+l exec --no-startup-id i3lock -c 000000 & sleep 5 && xset dpms force off
-bindsym $mod+space exec --no-startup-id setxkbmap -layout us,it -option grp:alt_shift_toggle
+# switch between english and italian layout
+bindsym $mod+Shift+u exec --no-startup-id setxkbmap us
+bindsym $mod+Shift+i exec --no-startup-id setxkbmap it
