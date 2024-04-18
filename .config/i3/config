@@ -247,6 +247,9 @@ bindsym $mod+p exec --no-startup-id maim --window $(xdotool getactivewindow) "/h
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the screen before suspend. Use loginctl lock-session to lock your screen.
 # exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
+# prevent focus workspace on mouse hover
+focus_follows_mouse no
+
 # keybindings
 bindsym $mod+b exec brave
 bindsym $mod+Return exec gnome-terminal
