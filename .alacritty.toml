@@ -1,8 +1,8 @@
 [colors.primary]
-background = "0x1c1c1c"
+background = "0x000000"
 
 [font]
-size = 13
+size = 12
 
 [font.normal]
 family = "JetBrainsMono Nerd Font Mono"
