@@ -263,7 +263,7 @@ bindsym $mod+b exec brave
 bindsym $mod+Return exec alacritty
 # bindsym $mod+Control+l exec "i3lock -c 000000"
 bindsym $mod+c exec zenity --calendar
-bindsym $mod+Control+l exec --no-startup-id i3lock -c 000000 & sleep 5 && xset dpms force off
+bindsym $mod+Control+l exec --no-startup-id i3lock -c 000000 & sleep 1 && xset dpms force off
 # sudo apt install rofi
 bindsym $mod+space exec rofi -show drun
 
