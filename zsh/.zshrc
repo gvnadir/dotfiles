@@ -100,10 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias python="python3"
-alias vi=nvim
 alias vim=nvim
 source /etc/zsh_command_not_found
-export PATH="$PATH:$HOME/.local/bin:$HOME/.cargo/env:$HOME/.local/share/bob/nvim-bin"
+export PATH="$PATH:$HOME/.local/bin:$HOME/.cargo/env:$HOME/.local/share/bob/nvim-bin:$HOME/usr/local/go/bin"
 
 
 # Load Angular CLI autocompletion.

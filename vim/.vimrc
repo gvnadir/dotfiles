@@ -13,8 +13,9 @@ vnoremap <leader>y "+y
 " Map <leader>cp to "+p in visual mode
 vnoremap <leader>p "+p
 
-set relativenumber
 set guifont=Fixedsys\ Excelsior\ 3.01-L2\ Mono\ Regular\ 16
 set belloff=all
 set tabstop=2
+set number
 
+colorscheme ron
