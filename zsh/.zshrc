@@ -101,6 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias python="python3"
 alias vim=nvim
+alias lg=lazygit
 source /etc/zsh_command_not_found
 export PATH="$PATH:$HOME/.local/bin:$HOME/.cargo/env:$HOME/.local/share/bob/nvim-bin:$HOME/usr/local/go/bin"
 
