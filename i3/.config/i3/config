@@ -235,10 +235,7 @@ workspace 1 output eDP1
 workspace 3 output HDMI3
 workspace 2 output HDMI2
 
-# add compose key mapped to right alt
-exec_always --no-startup-id setxkbmap -option compose:ralt
-
-exec --no-startup-id setxkbmap us
+# exec --no-startup-id setxkbmap us
 
 # requires sudo apt install maim xclip xdotool
 ## Clipboard Screenshots
@@ -272,6 +269,9 @@ bindsym $mod+Control+l exec --no-startup-id i3lock -c 000000 & sleep 1 && xset d
 # sudo apt install rofi
 bindsym $mod+space exec rofi -show drun
 
+# add compose key mapped to right alt
+exec_always --no-startup-id setxkbmap -option compose:ralt
+
 # switch between english and italian layout
-bindsym $mod+Shift+u exec --no-startup-id setxkbmap us
-bindsym $mod+Shift+i exec --no-startup-id setxkbmap it
+bindsym $mod+Shift+u exec --no-startup-id ~/.local/bin/set_keyboard_layout.sh us
+bindsym $mod+Shift+i exec --no-startup-id ~/.local/bin/set_keyboard_layout.sh it
