@@ -16,6 +16,7 @@ vnoremap <leader>p "+p
 set guifont=Fixedsys\ Excelsior\ 3.01-L2\ Mono\ Regular\ 16
 set belloff=all
 set tabstop=2
-set number
+set rnu
+set nu
 
 colorscheme ron
