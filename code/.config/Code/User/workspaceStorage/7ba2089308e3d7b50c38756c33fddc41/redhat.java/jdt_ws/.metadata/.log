@@ -1,0 +1,2391 @@
+!SESSION 2024-05-03 16:20:12.117 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Framework arguments:  --pipe=/run/user/1000/lsp-272d4412d72da6ca8f6a67f5cda1dcce.sock
+Command-line arguments:  -data /home/nadir/.config/Code/User/workspaceStorage/7ba2089308e3d7b50c38756c33fddc41/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-272d4412d72da6ca8f6a67f5cda1dcce.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:14.667
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:14.930
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:14.978
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:14.979
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:14.980
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.277
+!MESSAGE ProjectRegistryRefreshJob finished 1296ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.319
+!MESSAGE Started org.eclipse.buildship.core 42ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.446
+!MESSAGE Setting /usr/lib/jvm/java-11-openjdk-amd64 as 'JavaSE-11' environment (id:1714746016413)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.449
+!MESSAGE Setting java.home /usr/lib/jvm/java-11-openjdk-amd64 as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.453
+!MESSAGE Default VM Install changed from  1714746016390-/home/nadir/.vscode/extensions/redhat.java-1.30.0-linux-x64/jre/17.0.10-linux-x86_64 to 1714746016413-/usr/lib/jvm/java-11-openjdk-amd64
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.467
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.478
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.3.1/dist/com.microsoft.jdtls.intellicode.core-0.7.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.482
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-debug-0.57.0/server/com.microsoft.java.debug.plugin-0.52.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.490
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-dependency-0.23.6/server/com.microsoft.jdtls.ext.core-0.23.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.497
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.512
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.514
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.517
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.523
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.542
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.545
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.547
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.549
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.551
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.555
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.562
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.567
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.572
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.581
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.583
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.592
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.604
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.615
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-maven-0.44.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.635
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.648
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.688
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-maven-0.44.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.713
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.3.1/dist/com.microsoft.jdtls.intellicode.core-0.7.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.721
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.733
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.737
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.743
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.783
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.784
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.785
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.800
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-debug-0.57.0/server/com.microsoft.java.debug.plugin-0.52.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.803
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.803
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.804
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.805
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.806
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.807
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.807
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.808
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.823
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-dependency-0.23.6/server/com.microsoft.jdtls.ext.core-0.23.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.824
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.835
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.835
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.836
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.836
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.837
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.837
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.838
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.838
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.838
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.839
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.839
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.839
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.858
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.877
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:16.912
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:17.038
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:18.281
+!MESSAGE Try to create an invisible project for the workspace /home/nadir/dev/projects/java-projects/14-JukeBox
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:18.282
+!MESSAGE Creating the Java project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:18.298
+!MESSAGE Finished creating the Java project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:18.305
+!MESSAGE Successfully created a workspace invisible project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:18.324
+!MESSAGE Workspace initialized in 1466ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:18.364
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:18.367
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:18.369
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:18.929
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:19.239
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:19.351
+!MESSAGE >> Updating classpath for project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:19.517
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:19.953
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:19.956
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:20:19.957
+!MESSAGE Validated 1. Took 67 ms
+
+!ENTRY java-debug 1 0 2024-05-03 16:20:20.479
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:25.398
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:25.400
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:25.869
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:25.869
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:25.870
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:49.428
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:49.891
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:49.891
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:49.891
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:55.929
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:56.407
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:56.407
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:21:56.408
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:02.159
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:02.573
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:02.573
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:02.574
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:02.681
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:03.141
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:03.141
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:03.142
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:11.812
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:12.280
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:12.280
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:12.281
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:24.906
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:25.366
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:25.367
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:25.367
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:25.857
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:26.327
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:26.327
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:26.328
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:30.246
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:30.711
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:30.711
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:30.711
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:30.955
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:31.428
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:31.428
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:31.429
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:32.425
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:32.857
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:32.858
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:32.859
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:49.151
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:49.610
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:49.611
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:49.612
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:52.455
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:52.866
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:52.866
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:22:52.866
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:11.757
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:12.222
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:12.222
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:12.223
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:14.190
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:14.650
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:14.650
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:14.650
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:14.960
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:15.425
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:15.426
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:15.426
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:15.943
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:16.427
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:16.428
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:16.429
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:16.658
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:17.068
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:17.068
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:17.068
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:17.511
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:17.512
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:17.975
+!MESSAGE begin problem for /Canzone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:17.975
+!MESSAGE 0 problems reported for /Canzone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:17.976
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:25.903
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:26.362
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:26.362
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:26.362
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:27.229
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:27.704
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:27.704
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:27.705
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:40.734
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:41.192
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:41.192
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:41.192
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:41.670
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:42.129
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:42.129
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 16:23:42.129
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 18:40:52.571
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 18:40:52.572
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 18:40:52.590
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-03 18:40:52.595
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-05-10 17:59:46.217 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-5f1c38e8a3357fb8ad0e3cda3aa8838f.sock
+Command-line arguments:  -data /home/nadir/.config/Code/User/workspaceStorage/7ba2089308e3d7b50c38756c33fddc41/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-5f1c38e8a3357fb8ad0e3cda3aa8838f.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:50.047
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:50.441
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:50.495
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:50.497
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:50.498
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.766
+!MESSAGE ProjectRegistryRefreshJob finished 1268ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.793
+!MESSAGE Started org.eclipse.buildship.core 27ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.835
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.836
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.836
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.837
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.837
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.837
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.838
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.838
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.838
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.839
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.839
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.839
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.863
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:51.871
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:53.163
+!MESSAGE Workspace initialized in 1300ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:53.182
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:53.189
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:53.191
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:53.694
+!MESSAGE Setting /usr/lib/jvm/jdk-17-oracle-x64 as 'JavaSE-17' environment (id:1715356793675)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:53.696
+!MESSAGE Setting java.home /usr/lib/jvm/jdk-17-oracle-x64 as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:53.701
+!MESSAGE Default VM Install changed from  1714746016390-/home/nadir/.vscode/extensions/redhat.java-1.30.0-linux-x64/jre/17.0.10-linux-x86_64 to 1715356793675-/usr/lib/jvm/jdk-17-oracle-x64
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:53.704
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:53.773
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:55.312
+!MESSAGE >> Updating classpath for project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:55.442
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:55.445
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:55.446
+!MESSAGE Validated 1. Took 977 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 17:59:55.680
+!MESSAGE >> build jobs finished
+
+!ENTRY java-debug 1 0 2024-05-10 17:59:55.771
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:08.793
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:08.796
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:10.335
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:10.335
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:10.336
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:10.884
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:11.705
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:11.705
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:11.706
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:14.993
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:15.573
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:15.573
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:15.574
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:19.529
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:20.017
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:20.018
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:00:20.018
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:08:11.410
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:08:11.878
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:08:11.878
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:08:11.878
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:09.441
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:09.904
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:09.904
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:09.905
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:10.665
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:11.131
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:11.131
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:11.131
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:11.585
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:12.048
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:12.048
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:12.049
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:12.273
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:12.735
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:12.735
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:13:12.735
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:15:15.764
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:15:16.229
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:15:16.229
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:15:16.229
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:15:17.368
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:15:17.831
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:15:17.831
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:15:17.832
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:17:47.940
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:17:48.353
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:17:48.353
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:17:48.354
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:49:44.465
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:49:44.930
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:49:44.930
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:49:44.930
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:49:48.147
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:49:48.626
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:49:48.627
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 18:49:48.628
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:06.368
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:06.777
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:06.777
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:06.777
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:11.589
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:12.055
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:12.055
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:12.055
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:21.095
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:21.565
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:21.566
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:00:21.566
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:05:57.528
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:05:57.530
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:05:57.834
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-10 19:05:57.843
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-05-11 00:49:44.625 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-35410e2332d715893ebdc4fef09b2eb9.sock
+Command-line arguments:  -data /home/nadir/.config/Code/User/workspaceStorage/7ba2089308e3d7b50c38756c33fddc41/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-35410e2332d715893ebdc4fef09b2eb9.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:46.903
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:47.312
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:47.340
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:47.343
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:47.345
+!MESSAGE Started org.eclipse.m2e.core 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.750
+!MESSAGE ProjectRegistryRefreshJob finished 1405ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.777
+!MESSAGE Started org.eclipse.buildship.core 27ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.821
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.822
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.822
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.822
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.823
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.823
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.823
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.824
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.824
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.825
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.826
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.826
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.851
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:48.862
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:49.809
+!MESSAGE Workspace initialized in 958ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:49.830
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:49.833
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:49.835
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:50.354
+!MESSAGE >> Updating classpath for project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:50.372
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:50.391
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:51.104
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:51.107
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:49:51.108
+!MESSAGE Validated 1. Took 67 ms
+
+!ENTRY java-debug 1 0 2024-05-11 00:49:53.511
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:01.164
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:01.166
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:01.649
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:01.649
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:01.650
+!MESSAGE Validated 1. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:15.115
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:15.587
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:15.587
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:15.588
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:32.307
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:32.727
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:32.727
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:32.728
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:40.729
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:41.199
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:41.199
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:50:41.201
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:05.015
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:05.479
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:05.480
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:05.480
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:19.186
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:19.660
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:19.661
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:19.661
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:21.411
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:21.875
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:21.875
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:21.876
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:23.738
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:24.151
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:24.152
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:52:24.152
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:53:08.976
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:53:09.440
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:53:09.441
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:53:09.441
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:53:22.800
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:53:23.264
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:53:23.265
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:53:23.265
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:55:00.543
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:55:01.008
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:55:01.008
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:55:01.009
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:55:01.613
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:55:02.080
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:55:02.080
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 00:55:02.081
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:25:28.315
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:25:28.777
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:25:28.777
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:25:28.778
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:25:42.075
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:25:42.488
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:25:42.488
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:25:42.489
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:10.736
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:11.196
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:11.196
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:11.196
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:23.676
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:24.140
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:24.140
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:24.140
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:33.122
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:33.582
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:33.583
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:33.583
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:36.437
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:36.902
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:36.903
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:36.903
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:50.934
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:51.398
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:51.398
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:26:51.399
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:11.055
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:11.528
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:11.528
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:11.529
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:16.249
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:16.710
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:16.710
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:16.711
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:17.372
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:17.834
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:17.834
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:27:17.835
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:33:02.621
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:33:02.623
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:33:02.656
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-11 01:33:02.664
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-05-24 23:15:29.502 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-4878fee0068d9438fc1de251962cece0.sock
+Command-line arguments:  -data /home/nadir/.config/Code/User/workspaceStorage/7ba2089308e3d7b50c38756c33fddc41/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-4878fee0068d9438fc1de251962cece0.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:33.059
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:33.689
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:33.716
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:33.722
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:33.726
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.144
+!MESSAGE ProjectRegistryRefreshJob finished 1416ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.196
+!MESSAGE Started org.eclipse.buildship.core 51ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.270
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.276
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.276
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.279
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.286
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.289
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.289
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.290
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.290
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.290
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.291
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.291
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.328
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:35.347
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:36.555
+!MESSAGE Workspace initialized in 1227ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:36.576
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:36.579
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:36.582
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:37.111
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:37.323
+!MESSAGE >> Updating classpath for project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:37.339
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:37.822
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:37.824
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-24 23:15:37.826
+!MESSAGE Validated 1. Took 64 ms
+
+!ENTRY java-debug 1 0 2024-05-24 23:15:39.136
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-25 00:31:24.395
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-25 00:31:24.397
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-25 00:31:24.418
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-25 00:31:24.425
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-06-13 22:50:52.164 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-b83d55fdcc846b8ccf4edc80c3d5f52e.sock
+Command-line arguments:  -data /home/nadir/.config/Code/User/workspaceStorage/7ba2089308e3d7b50c38756c33fddc41/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-b83d55fdcc846b8ccf4edc80c3d5f52e.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:56.902
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:57.427
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:58.083
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:58.088
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:58.089
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.544
+!MESSAGE ProjectRegistryRefreshJob finished 1454ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.616
+!MESSAGE Started org.eclipse.buildship.core 72ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.721
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.722
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.723
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.723
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.732
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.733
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.735
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.736
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.737
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.737
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.738
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.738
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:50:59.801
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:51:02.015
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:51:02.370
+!MESSAGE Workspace initialized in 2570ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:51:02.432
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:51:02.448
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:51:02.450
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:51:03.105
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:51:03.419
+!MESSAGE >> Updating classpath for project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:51:03.517
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:51:03.921
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:51:04.050
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:51:04.052
+!MESSAGE Validated 1. Took 295 ms
+
+!ENTRY java-debug 1 0 2024-06-13 22:51:11.960
+!MESSAGE Starting com.microsoft.java.debug.plugin
+!SESSION 2024-06-13 22:54:25.965 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-ef9b77be791dc1d9c4bca509a36aab5d.sock
+Command-line arguments:  -data /home/nadir/.config/Code/User/workspaceStorage/7ba2089308e3d7b50c38756c33fddc41/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-ef9b77be791dc1d9c4bca509a36aab5d.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:30.436
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:30.992
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:31.022
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:31.032
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:31.033
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.692
+!MESSAGE ProjectRegistryRefreshJob finished 1659ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.756
+!MESSAGE Started org.eclipse.buildship.core 63ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.810
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.811
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.811
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.811
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.812
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.812
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.812
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.812
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.813
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.813
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.813
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.814
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.850
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:32.864
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:34.589
+!MESSAGE Workspace initialized in 1740ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:34.629
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:34.633
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:34.635
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:35.401
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:35.596
+!MESSAGE >> Updating classpath for project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:36.137
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:36.143
+!MESSAGE Reconciled 1. Took 68 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:36.814
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:36.819
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 22:54:36.824
+!MESSAGE Validated 1. Took 79 ms
+
+!ENTRY java-debug 1 0 2024-06-13 22:54:38.188
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:07.691
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:07.748
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:08.242
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:08.243
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:08.243
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:08.668
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:09.140
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:09.140
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:09.140
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:24.654
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:25.120
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:25.121
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:25.121
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:32.115
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:32.588
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:32.589
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:32.589
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:33.878
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:34.290
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:34.290
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:34.291
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:38.027
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:38.055
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:38.056
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:30:38.063
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-06-13 23:55:07.795 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-3be4a276b0b20831b142a559d0008947.sock
+Command-line arguments:  -data /home/nadir/.config/Code/User/workspaceStorage/7ba2089308e3d7b50c38756c33fddc41/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-3be4a276b0b20831b142a559d0008947.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:12.585
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:13.456
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:13.518
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:13.521
+!MESSAGE Initializing Java Language Server 1.36.0.202405300348
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:13.522
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:14.954
+!MESSAGE ProjectRegistryRefreshJob finished 1430ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:14.996
+!MESSAGE Started org.eclipse.buildship.core 42ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.043
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.3.1/dist/com.microsoft.jdtls.intellicode.core-0.7.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.046
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-debug-0.57.0/server/com.microsoft.java.debug.plugin-0.52.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.047
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-dependency-0.23.6/server/com.microsoft.jdtls.ext.core-0.23.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.049
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.052
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.054
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.056
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.071
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.072
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.074
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.076
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.083
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.085
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.087
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.089
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.090
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.092
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.094
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.095
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.097
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.100
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.102
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-maven-0.44.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.119
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.158
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-dependency-0.23.6/server/com.microsoft.jdtls.ext.core-0.23.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.178
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.179
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.188
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.190
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.200
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.208
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.209
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.218
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.253
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-debug-0.57.0/server/com.microsoft.java.debug.plugin-0.52.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.254
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.283
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.3.1/dist/com.microsoft.jdtls.intellicode.core-0.7.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.297
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.303
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.304
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.338
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-maven-0.44.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.339
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.360
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.362
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.366
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.398
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.403
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.405
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.406
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.407
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.412
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.413
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.414
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.414
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.428
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.428
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.429
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.430
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.454
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:15.536
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:16.969
+!MESSAGE Workspace initialized in 1516ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:16.979
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:17.633
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:17.732
+!MESSAGE >> Updating classpath for project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:17.749
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:17.750
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:17.752
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:18.416
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:18.418
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:18.420
+!MESSAGE Validated 1. Took 121 ms
+
+!ENTRY java-debug 1 0 2024-06-13 23:55:21.422
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:27.276
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:27.330
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:27.823
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:27.824
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:27.824
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:29.309
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:29.787
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:29.787
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:29.788
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:44.788
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:44.815
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:44.816
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-13 23:55:44.822
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-07-02 23:49:44.003 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-d59beb7914f52fdac4fa10696415f6f0.sock
+Command-line arguments:  -data /home/nadir/.config/Code/User/workspaceStorage/7ba2089308e3d7b50c38756c33fddc41/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-d59beb7914f52fdac4fa10696415f6f0.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:46.659
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:47.242
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:47.245
+!MESSAGE Initializing Java Language Server 1.36.0.202405300348
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:47.247
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:47.283
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:48.888
+!MESSAGE ProjectRegistryRefreshJob finished 1640ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:48.922
+!MESSAGE Started org.eclipse.buildship.core 33ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.001
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.002
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.002
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.002
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.003
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.003
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.004
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.004
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.004
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.005
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.005
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.005
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.051
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:49.072
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:50.166
+!MESSAGE Workspace initialized in 1116ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:50.176
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:50.668
+!MESSAGE >> Updating classpath for project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:50.709
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:50.710
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:50.712
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:50.735
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:51.422
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:51.425
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:51.426
+!MESSAGE Validated 1. Took 90 ms
+
+!ENTRY java-debug 1 0 2024-07-02 23:49:53.166
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:58.940
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:58.942
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:59.420
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:59.421
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:49:59.421
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:50:00.242
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:50:00.715
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:50:00.715
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:50:00.716
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:52:01.615
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:52:02.108
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:52:02.108
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:52:02.109
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:52:03.016
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:52:03.483
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:52:03.483
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-02 23:52:03.484
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 00:07:36.904
+!MESSAGE Parent process stopped running, forcing server exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 00:07:36.905
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 00:07:36.947
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 00:07:36.953
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-07-03 22:54:29.379 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-3f785fdc283471facb27118e008125d8.sock
+Command-line arguments:  -data /home/nadir/.config/Code/User/workspaceStorage/7ba2089308e3d7b50c38756c33fddc41/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-3f785fdc283471facb27118e008125d8.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:33.494
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:33.914
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:33.923
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:33.926
+!MESSAGE Initializing Java Language Server 1.37.0.202406270241
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:33.926
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.460
+!MESSAGE ProjectRegistryRefreshJob finished 1532ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.481
+!MESSAGE Started org.eclipse.buildship.core 21ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.511
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.3.1/dist/com.microsoft.jdtls.intellicode.core-0.7.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.514
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-debug-0.58.0/server/com.microsoft.java.debug.plugin-0.53.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.519
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-dependency-0.23.7/server/com.microsoft.jdtls.ext.core-0.23.7.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.524
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.526
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.528
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.531
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.534
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.537
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.539
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.541
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.543
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.545
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.546
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.548
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.549
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.551
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.553
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.554
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.556
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.558
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.560
+!MESSAGE Installed reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-maven-0.44.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.566
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.570
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.576
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.577
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.594
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-debug-0.58.0/server/com.microsoft.java.debug.plugin-0.53.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.599
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.626
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.627
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.627
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.628
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.629
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.630
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.631
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.631
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.642
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.3.1/dist/com.microsoft.jdtls.intellicode.core-0.7.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.655
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-dependency-0.23.7/server/com.microsoft.jdtls.ext.core-0.23.7.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.656
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.657
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.657
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.658
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.658
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.668
+!MESSAGE Started reference:file:/home/nadir/.vscode/extensions/vscjava.vscode-maven-0.44.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.672
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.673
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.673
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.673
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.674
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.674
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.674
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.674
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.675
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.675
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.675
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.675
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.693
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:35.702
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:36.647
+!MESSAGE Workspace initialized in 954ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:36.651
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:37.145
+!MESSAGE >> Updating classpath for project 14-JukeBox_e5a88b8b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:37.163
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:37.163
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:37.167
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:37.279
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:37.931
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:37.934
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:37.935
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:38.333
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:38.336
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:38.808
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:38.809
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:38.809
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:39.483
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:39.957
+!MESSAGE begin problem for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:39.957
+!MESSAGE 0 problems reported for /Jukebox.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:54:39.958
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY java-debug 1 0 2024-07-03 22:54:41.082
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:55:12.758
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:55:12.776
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:55:12.794
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-07-03 22:55:12.800
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

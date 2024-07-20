@@ -1,0 +1,356 @@
+[
+  {
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeGroup",
+    "when": "activeEditorGroupEmpty && multipleEditorGroups"
+  },
+  {
+    "key": "ctrl+f4",
+    "command": "-workbench.action.closeGroup",
+    "when": "activeEditorGroupEmpty && multipleEditorGroups"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "workbench.action.focusPreviousGroup",
+    "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.focusNextGroup",
+    "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "saveAll"
+  },
+  {
+    "key": "ctrl+k s",
+    "command": "-saveAll"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "-cursorWordEndRightSelect",
+    "when": "textInputFocus && !accessibilityModeEnabled"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "-cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+space `",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "shift+space s",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "shift+space v",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "ctrl+k ctrl+\\",
+    "command": "-workbench.action.splitEditorDown"
+  },
+  {
+    "key": "shift+space 0",
+    "command": "workbench.action.evenEditorWidths"
+  },
+  {
+    "key": "shift+space a",
+    "command": "vscode-harpoon.addEditor"
+  },
+  {
+    "key": "shift+space h",
+    "command": "vscode-harpoon.gotoEditor1"
+  },
+  {
+    "key": "shift+space j",
+    "command": "vscode-harpoon.gotoEditor2"
+  },
+  {
+    "key": "shift+space k",
+    "command": "vscode-harpoon.gotoEditor3"
+  },
+  {
+    "key": "shift+space e",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "shift+space x",
+    "command": "workbench.view.extensions",
+    "when": "viewContainer.workbench.view.extensions.enabled"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "-workbench.view.extensions",
+    "when": "viewContainer.workbench.view.extensions.enabled"
+  },
+  {
+    "key": "shift+space c",
+    "command": "workbench.action.toggleCenteredLayout"
+  },
+  {
+    "key": "ctrl+pagedown",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "tab h",
+    "command": "workbench.action.previousEditor",
+    "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+pageup",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "tab l",
+    "command": "workbench.action.nextEditor",
+    "when": "editorFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+shift+g g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "shift+space g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "shift+space shift+f",
+    "command": "workbench.view.search",
+    "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "-workbench.view.search",
+    "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
+  },
+  {
+    "key": "shift+space shift+f",
+    "command": "workbench.action.findInFiles"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "-workbench.action.findInFiles"
+  },
+  {
+    "key": "shift+space tab",
+    "command": "opened-editors.openedEditors"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-extension.vim_ctrl+w",
+    "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+  },
+  {
+    "key": "shift+space u",
+    "command": "unsaved-files.show"
+  },
+  {
+    "key": "shift+space f",
+    "command": "actions.find",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-actions.find",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "shift+space r",
+    "command": "editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "shift+space tab",
+    "command": "workbench.action.showAllEditors"
+  },
+  {
+    "key": "ctrl+k ctrl+p",
+    "command": "-workbench.action.showAllEditors"
+  },
+  {
+    "key": "shift+space shift+s",
+    "command": "editor.action.changeAll",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+f2",
+    "command": "-editor.action.changeAll",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "tab w",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "editorFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "shift+space shift+w",
+    "command": "workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "ctrl+k w",
+    "command": "-workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "workbench.action.closeWindow",
+    "when": "{   \"key\": \"tab l\",   \"command\": \"workbench.action.nextEditor\",   \"when\": \"editorFocus && vim.mode == 'Normal'\" }"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "workbench.action.closeWindow",
+    "when": "{   \"key\": \"tab l\",   \"command\": \"workbench.action.nextEditor\",   \"when\": \"editorFocus && vim.mode == 'Normal'\" }"
+  },
+  {
+    "key": "tab n",
+    "command": "workbench.action.compareEditor.nextChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "alt+f5",
+    "command": "-workbench.action.compareEditor.nextChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "tab p",
+    "command": "workbench.action.compareEditor.previousChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "shift+alt+f5",
+    "command": "-workbench.action.compareEditor.previousChange",
+    "when": "textCompareEditorVisible"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-extension.vim_ctrl+p",
+    "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+  },
+  {
+    "key": "shift+space p",
+    "command": "markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+k v",
+    "command": "-markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "tab ,",
+    "command": "workbench.action.moveEditorLeftInGroup",
+    "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+shift+pageup",
+    "command": "-workbench.action.moveEditorLeftInGroup"
+  },
+  {
+    "key": "tab .",
+    "command": "workbench.action.moveEditorRightInGroup",
+    "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+shift+pagedown",
+    "command": "-workbench.action.moveEditorRightInGroup"
+  },
+  {
+    "key": "shift+space m",
+    "command": "workbench.action.toggleMaximizeEditorGroup",
+    "when": "maximizedEditorGroup || multipleEditorGroups"
+  },
+  {
+    "key": "ctrl+k ctrl+m",
+    "command": "-workbench.action.toggleMaximizeEditorGroup",
+    "when": "maximizedEditorGroup || multipleEditorGroups"
+  },
+  {
+    "key": "shift+space t",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "tab n",
+    "command": "workbench.action.editor.nextChange",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "alt+f5",
+    "command": "-workbench.action.editor.nextChange",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "tab p",
+    "command": "workbench.action.editor.previousChange",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "shift+alt+f5",
+    "command": "-workbench.action.editor.previousChange",
+    "when": "editorTextFocus && !textCompareEditorActive"
+  },
+  {
+    "key": "shift+space space",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "shift+space /",
+    "command": "vscode-harpoon.editEditors"
+  },
+  {
+    "key": "shift+space l",
+    "command": "vscode-harpoon.gotoEditor4"
+  },
+  {
+    "key": "shift+space 5",
+    "command": "vscode-harpoon.gotoEditor5"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  }
+]

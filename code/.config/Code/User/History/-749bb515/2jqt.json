@@ -1,0 +1,193 @@
+[
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeGroup",
+    "when": "activeEditorGroupEmpty && multipleEditorGroups"
+  },
+  {
+    "key": "ctrl+f4",
+    "command": "-workbench.action.closeGroup",
+    "when": "activeEditorGroupEmpty && multipleEditorGroups"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusPreviousGroup",
+    "when": "editorFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "saveAll"
+  },
+  {
+    "key": "ctrl+k s",
+    "command": "-saveAll"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "-cursorWordEndRightSelect",
+    "when": "textInputFocus && !accessibilityModeEnabled"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "-cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+space `",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "shift+space 0",
+    "command": "workbench.action.evenEditorWidths"
+  },
+  {
+    "key": "shift+space e",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "shift+space x",
+    "command": "workbench.view.extensions",
+    "when": "viewContainer.workbench.view.extensions.enabled"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "-workbench.view.extensions",
+    "when": "viewContainer.workbench.view.extensions.enabled"
+  },
+  {
+    "key": "shift+space c",
+    "command": "workbench.action.toggleCenteredLayout"
+  },
+  {
+    "key": "ctrl+shift+g g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "shift+space g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-extension.vim_ctrl+w",
+    "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+  },
+  {
+    "key": "shift+space shift+s",
+    "command": "editor.action.changeAll",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+f2",
+    "command": "-editor.action.changeAll",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "shift+space shift+w",
+    "command": "workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "ctrl+k w",
+    "command": "-workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "workbench.action.closeWindow",
+    "when": "{   \"key\": \"tab l\",   \"command\": \"workbench.action.nextEditor\",   \"when\": \"editorFocus && vim.mode == 'Normal'\" }"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "workbench.action.closeWindow",
+    "when": "{   \"key\": \"tab l\",   \"command\": \"workbench.action.nextEditor\",   \"when\": \"editorFocus && vim.mode == 'Normal'\" }"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-extension.vim_ctrl+p",
+    "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+  },
+  {
+    "key": "shift+space p",
+    "command": "markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+k v",
+    "command": "-markdown.showPreviewToSide",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "shift+space t",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "shift+space space",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.focusBelowGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+down",
+    "command": "-workbench.action.focusBelowGroup"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.focusAboveGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+up",
+    "command": "-workbench.action.focusAboveGroup"
+  },
+  {
+    "key": "a",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "shift+a",
+    "command": "explorer.newFolder"
+  }
+]

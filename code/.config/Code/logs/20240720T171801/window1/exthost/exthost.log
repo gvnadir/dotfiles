@@ -1,0 +1,37 @@
+2024-07-20 17:18:03.534 [info] Extension host with pid 50067 started
+2024-07-20 17:18:03.534 [info] Skipping acquiring lock for /home/nadir/.config/Code/User/workspaceStorage/e7b7bf4bd3f7b6619078138311528b06.
+2024-07-20 17:18:04.050 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-07-20 17:18:04.058 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-20 17:18:04.079 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-20 17:18:04.089 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-20 17:18:04.179 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-20 17:18:04.279 [info] Extension host with pid 50114 started
+2024-07-20 17:18:04.279 [info] Skipping acquiring lock for /home/nadir/.config/Code/User/workspaceStorage/e7b7bf4bd3f7b6619078138311528b06.
+2024-07-20 17:18:04.386 [info] Eager extensions activated
+2024-07-20 17:18:04.489 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:04.767 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-20 17:18:04.773 [info] ExtensionService#_doActivateExtension artlaman.chalice-icon-theme, startup: true, activationEvent: '*'
+2024-07-20 17:18:04.781 [info] ExtensionService#_doActivateExtension ms-vscode.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2024-07-20 17:18:04.784 [info] ExtensionService#_doActivateExtension koalamer.workspace-in-status-bar, startup: true, activationEvent: '*'
+2024-07-20 17:18:04.785 [info] ExtensionService#_doActivateExtension RoscoP.ActiveFileInStatusBar, startup: true, activationEvent: '*'
+2024-07-20 17:18:04.799 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-20 17:18:04.885 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-20 17:18:04.914 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2024-07-20 17:18:05.066 [info] Eager extensions activated
+2024-07-20 17:18:05.173 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:05.176 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:05.199 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:05.239 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:05.398 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:05.494 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:05.510 [info] ExtensionService#_doActivateExtension sainnhe.everforest, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:05.520 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:05.534 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:05.601 [info] ExtensionService#_doActivateExtension wraith13.unsaved-files-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:05.605 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:18:06.492 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-07-20 17:18:08.951 [info] ExtensionService#_doActivateExtension tobias-z.vscode-harpoon, startup: false, activationEvent: 'onCommand:vscode-harpoon.editEditors'
+2024-07-20 17:18:12.606 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2024-07-20 17:18:12.851 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-07-20 17:18:12.866 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-07-20 17:18:13.000 [info] ExtensionService#_doActivateExtension yzane.markdown-pdf, startup: false, activationEvent: 'onLanguage:markdown'

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF8" />
+  </head>
+  <body>
+    <script>
+      let count = 0;
+      function increment() {
+        count += 1;
+        document.getElementById("mybutton").innerHTML = `Clicked ${count}`;
+        document.getElementById("doubled").innerHTML = count * 2;
+      }
+    </script>
+
+    <h1>Welcome to my web page!</h1>
+    <button id="mybutton" onclick="increment()">Clicked 0</button>
+    <p id="doubled"></p>
+  </body>
+</html>

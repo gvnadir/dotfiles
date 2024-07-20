@@ -1,0 +1,9 @@
+2024-07-20 17:18:02.871 [info] Started local extension host with pid 50067.
+2024-07-20 17:18:03.413 [error] Extension 'ms-python.debugpy' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): portsAttributes, contribIssueReporter, debugVisualization, contribViewsWelcome
+product.json (WINS): portsAttributes, contribIssueReporter, debugVisualization
+2024-07-20 17:18:03.423 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2024-07-20 17:18:03.465 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2024-07-20 17:18:03.476 [warning] [redhat.vscode-xml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2024-07-20 17:18:03.892 [info] Started local extension host with pid 50114.
+2024-07-20 17:18:06.141 [info] [perf] Render performance baseline is 44ms

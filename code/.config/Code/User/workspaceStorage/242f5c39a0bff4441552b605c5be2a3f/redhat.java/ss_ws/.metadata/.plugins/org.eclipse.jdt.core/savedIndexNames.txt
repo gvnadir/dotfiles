@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+/home/nadir/.config/Code/User/workspaceStorage/242f5c39a0bff4441552b605c5be2a3f/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core

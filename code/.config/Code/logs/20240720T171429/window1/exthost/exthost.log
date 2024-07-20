@@ -1,0 +1,129 @@
+2024-07-20 17:14:32.874 [info] Extension host with pid 49030 started
+2024-07-20 17:14:33.203 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-07-20 17:14:33.214 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-20 17:14:34.118 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-20 17:14:34.122 [info] ExtensionService#_doActivateExtension artlaman.chalice-icon-theme, startup: true, activationEvent: '*'
+2024-07-20 17:14:34.134 [info] ExtensionService#_doActivateExtension Compulim.vscode-clock, startup: true, activationEvent: '*'
+2024-07-20 17:14:34.139 [info] ExtensionService#_doActivateExtension ms-vscode.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2024-07-20 17:14:34.144 [info] ExtensionService#_doActivateExtension koalamer.workspace-in-status-bar, startup: true, activationEvent: '*'
+2024-07-20 17:14:34.146 [info] ExtensionService#_doActivateExtension RoscoP.ActiveFileInStatusBar, startup: true, activationEvent: '*'
+2024-07-20 17:14:34.149 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2024-07-20 17:14:34.201 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-20 17:14:34.293 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-20 17:14:34.320 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2024-07-20 17:14:34.432 [info] Eager extensions activated
+2024-07-20 17:14:34.454 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:34.456 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:34.479 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:34.525 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:34.684 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:34.791 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:34.806 [info] ExtensionService#_doActivateExtension sainnhe.everforest, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:34.815 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:34.829 [info] ExtensionService#_doActivateExtension slhsxcmy.vscode-double-line-numbers, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:34.830 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:34.838 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:34.918 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:35.020 [info] ExtensionService#_doActivateExtension wraith13.unsaved-files-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:35.025 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 17:14:35.695 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-07-20 17:14:36.648 [error] Error: ENOENT: no such file or directory, open '/home/nadir/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-07-20 17:14:41.077 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-20 17:14:41.135 [error] Canceled: Canceled
+	at new I (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:34990)
+	at S.U (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6023)
+	at z.<computed>.F.charCodeAt.T.CharCode.DollarSign.z.<computed> (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at f.g (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203861)
+	at f.executeCommand (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203299)
+	at A.registerCommand.description (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:202623)
+	at f.h (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204400)
+	at f.g (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203392)
+	at f.executeCommand (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203299)
+	at Object.executeCommand (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23051)
+	at w (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1455:39724)
+	at c (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1455:44783)
+	at ActionRunners._updateContextKeys (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:18425)
+	at s (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:16869)
+	at RegisteredActionRunner.unregister (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:17012)
+	at RegisteredActionRunner.dispose (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:15665)
+	at ActionRunners.dispose (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:16452)
+	at /home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1414:20154
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1414:20136)
+	at d (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at m.eb (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:10039)
+	at /snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7915
+	at Array.map (<anonymous>)
+	at m.$ (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7902)
+	at m.terminate (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:8175)
+	at d.terminate (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at i (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:10617)
+	at MessagePortMain.<anonymous> (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6809)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-07-20 17:14:41.135 [error] Canceled: Canceled
+	at new I (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:34990)
+	at S.U (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6023)
+	at z.<computed>.F.charCodeAt.T.CharCode.DollarSign.z.<computed> (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at f.g (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203861)
+	at f.executeCommand (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203299)
+	at A.registerCommand.description (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:202623)
+	at f.h (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204400)
+	at f.g (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203392)
+	at f.executeCommand (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203299)
+	at Object.executeCommand (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23051)
+	at w (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1455:39724)
+	at c (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1455:44783)
+	at ActionRunners._updateContextKeys (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:18425)
+	at s (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:16869)
+	at RegisteredActionRunner.unregister (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:17012)
+	at RegisteredActionRunner.dispose (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:15665)
+	at ActionRunners.dispose (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:16452)
+	at /home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1414:20154
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1414:20136)
+	at d (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at m.eb (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:10039)
+	at /snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7915
+	at Array.map (<anonymous>)
+	at m.$ (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7902)
+	at m.terminate (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:8175)
+	at d.terminate (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at i (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:10617)
+	at MessagePortMain.<anonymous> (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6809)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-07-20 17:14:41.136 [error] Canceled: Canceled
+	at new I (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:34990)
+	at S.U (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6023)
+	at z.<computed>.F.charCodeAt.T.CharCode.DollarSign.z.<computed> (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+	at f.g (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203861)
+	at f.executeCommand (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203299)
+	at A.registerCommand.description (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:202623)
+	at f.h (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204400)
+	at f.g (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203392)
+	at f.executeCommand (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:203299)
+	at Object.executeCommand (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23051)
+	at w (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1455:39724)
+	at c (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1455:44783)
+	at ActionRunners._updateContextKeys (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:18425)
+	at s (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:16869)
+	at RegisteredActionRunner.unregister (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:17012)
+	at RegisteredActionRunner.dispose (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:15665)
+	at ActionRunners.dispose (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1101:16452)
+	at /home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1414:20154
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/nadir/.vscode/extensions/eamodio.gitlens-15.2.0/dist/gitlens.js:1414:20136)
+	at d (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at m.eb (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:10039)
+	at /snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7915
+	at Array.map (<anonymous>)
+	at m.$ (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7902)
+	at m.terminate (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:8175)
+	at d.terminate (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at i (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:10617)
+	at MessagePortMain.<anonymous> (/snap/code/164/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6809)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-07-20 17:14:41.138 [error] Error: ENOENT: no such file or directory, open '/home/nadir/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-07-20 17:14:41.138 [info] Extension host with pid 49030 exiting with code 0

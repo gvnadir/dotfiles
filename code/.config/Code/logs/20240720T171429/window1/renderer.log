@@ -1,0 +1,7 @@
+2024-07-20 17:14:32.092 [info] Started local extension host with pid 49030.
+2024-07-20 17:14:32.721 [error] Extension 'ms-python.debugpy' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): portsAttributes, contribIssueReporter, debugVisualization, contribViewsWelcome
+product.json (WINS): portsAttributes, contribIssueReporter, debugVisualization
+2024-07-20 17:14:32.795 [warning] [redhat.vscode-xml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2024-07-20 17:14:35.418 [info] [perf] Render performance baseline is 39ms
+2024-07-20 17:14:36.649 [error] ENOENT: no such file or directory, open '/home/nadir/.config/Code/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/nadir/.config/Code/User/globalStorage/vscodevim.vim/.registers'

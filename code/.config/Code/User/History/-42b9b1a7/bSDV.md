@@ -1,0 +1,225 @@
+## Managing User Environment Variables
+
+### Viewing and Modifing Environment Variables
+
+```
+# view all your default environment variblaes
+
+env
+
+# view all environment variables
+
+set
+
+# changing env variable for a session
+
+HISTSIZE=0
+
+
+# delete a varibale using unset
+unset $MYVARIABLE
+```
+
+### Making Variable Value Changes Permanent
+
+```
+# add your updated env varibale to your .bashrc using export
+
+export HISTSIZE=0
+```
+
+### Changing you Shell Prompt
+
+Using the `PS1` command it is possible to change the name in the default shell prompt.
+
+The `PS1` variable has a set of placeholders for information you want to display in the prompt:
+
+- `\u` The name of the current user
+- `\h` The hostname
+- `\w` The base name of the current working directory
+
+```
+export PS1='C:\w> '
+cd /tmp
+C:tmp>
+```
+
+### Changing Your PATH
+
+If the bash shell doesn't find the command in one of the directories in your `PATH` variable, it will return the error `command not found`, even if the command _does_ exist in a directory not in your `PATH`.
+
+To be able to use a new downloaded tool from _any_ directory, you need to add the directory holding this tool to your `PATH` variable.
+
+> Type the name of your new tool in the terminal to see if it has already been added to your PATH variable
+
+### Adding to the PATH Variable
+
+```
+# we just download the new tool 'newhackingtool' and we want to append it to our PATH variable
+
+PATH=$PATH:/root/newhakingtool
+```
+
+> Do not add a lot of directories in your PATH varibale otherwise it will slow down your terminal because the system will have to search through each and every directory in the PATH to find commands.
+
+> Remember to _append_ to the PATH variable and NOT to override it like this: PATH=/root/newhackingtool.
+
+## Compressing and Archiving
+
+Compression can be generally categorized as either _lossy_ or _lossless_.  
+Lossy compression is very effective in reducing the size of files, but the integrity of the information is lost, in other words, the file compression is not exactly the same as the original.
+
+Lossy compression works great for graphics, video and audio files, where a small difference is hardly noticeable.
+
+If your are sending script or document, the integrity of the original file myst be retained when it is decompressed, that's why we will use lossless compression.
+
+### Tarring Files Together
+
+_Tar_ stands for _tape archive_, a reference to the prehistoric days of computing where systems used tape to store data. The `tar` command creates a single file from many files, which is then referred to as an _archive_, _tar file_ or _tarball_.
+
+```
+# creating a tarball of three files
+
+ls
+hackersarise1.sh hackersarise2.sh hackersarise3.sh
+
+# -c create, -v verbose, -f write to the following file
+tar -cvf HackersArise.tar hackersarise1 hackersarise1 hackersarise2
+
+
+# -t list content
+tar -tvf HackersArise.tar
+
+# -x extract
+
+tar -xvf HackersArise.tar
+```
+
+### Compressing Files
+
+The common Linux commands for compressing files:
+
+- `bzip2`, which uses the extension _.tar.bz2_, is the slowest, but the resultant files are the samllest
+- `compress`, which uses the extension _.tar.z_, is the fastest, but the resultant files are larger
+- `gzip`, which uses the extension _.tar.gz_ or _tgz_, falls somewhere in between the two commands above
+
+```
+# compress file using gzip
+
+gzip HackersArise.*
+
+# uncompress file using gzip
+
+gunzip HackersArise.*
+
+# compress file using bzip2
+
+bzip2 HackersArise.*
+
+# uncompress file using bzip2
+
+bunzip2 HackersArise.*
+
+# compress file with compress
+
+compress HackersArise.*
+
+# uncompress file using compress
+
+uncompress HackersArise.*
+```
+
+### Creating a Bit-by-Bit or Physical Copies of Storage Devices
+
+```
+# 'dd' is the command
+# 'if' input file and 'of' output file
+# the command will generate a binary file (copy) of the sdb device
+
+dd if=/dev/sdb/ of=/root/flashcopy
+
+# create a directory for mounting the binary
+mkdir /media/user/newdevice
+
+# mount a regular file as a block device
+# the command will mount the binary file in the /media/user/newdevice folder
+
+sudo mount -o loop /root/flashcopy /media/user/newdevice
+```
+
+## Filesystem and Storage Device Management
+
+### The Device Directory /dev
+
+Linux has a special directory that contains files representing each attached device: the /dev directory.
+
+The devices _sda1_, _sda2_, _sdb_, _sdb1_, are usually the hard drive or USB flash drive and its partitions.
+
+### How Linux Represents Storage Devices
+
+Originally, Linux represented floppy drives as _fd0_ and hard drives as _hda_. Today, hard drives are repsented as _sda_ that stands for SATA (Serial Advanced Techology Attachment), the newer and faster version of the old ATA. SATA and ATA are both interface standards used to communicate with and manage data transfer to and from hard drives and other storage devices.
+
+> An interface is a connection or interaction point between different components or systems, allowing them to communicate and exchange information. It defines how they can work together, making it possible for one part to understand and interact with another.
+
+When a system have more than one hard drive, Linux simply names them serially by incrementing the last letter in alphabetical order, so the first drive is _sda_, and the second drive is _sdb_ and so on.
+Since some drives can be split into partitions in order to manage and separate information, the first partition on the first SATA drive would be _sda1_, the secondo partition would be _sda2_ and so on.
+
+### File Systems
+
+A file system is a software component or protocol that controls how data is stored, accessed, and managed on a storage device. It establishes the structure for naming files and organizing them into directories, as well as managing metadata associated with each file.
+
+Different operating systems use various file systems, such as:
+
+- FAT (File Allocation Table), NTFS (New Technology File System) in Windows
+- ext4 (Extended File System version 4) in Linux
+- HFS, HFS+ (Hierarchical File System) in macOS.
+
+### Character and Block Devices
+
+Something else to note about the naming of device files in the /dev directory is that the first position contains either _c_ or _b_.
+
+These letters represent the two ways that devices transfer data in and out. The _c_ stands for character, and these devices are known as _character_ devices such as keyboards.
+
+The _b_ stands for _block_ devices, the communicate in blocks of data (multiple bytes at a time) and include devices like hard drives and DVD drives. These devices require higher-speed data throughput and therefore send and receive data in blocks.
+
+```
+# to see block devices use the 'lsblk' command (list block)
+
+lsblk
+
+# to get info the filesystem type use the '-fs' switch
+
+lsblk -fs
+```
+
+### Mounting and Unmounting
+
+A storage device must be first _physically_ connected to the filesystem and then _logically_ attached to the filesystem in order for the data to be made available in the operating system.
+
+The command _mount_ is used to _logically_ attach a device to the OS. The two main mount points in Linux are _/mnt_ and _/media_.
+
+```
+# mount a device
+
+mount /dev/sdb1 /mnt
+mount /dev/sdc1 /media
+
+# eject a device using the umount command (umount not unmount)
+
+umount /dev/sdb1
+umount /dev/sdc1
+```
+
+### Getting Information on Mounted Disks
+
+The command _df_ (disk free) 2ill provide us with basic information on any hard disks or mounted devices
+
+```
+# list mounted devices
+
+df
+
+# add the '-h' switch for human-readable sizes
+
+df -h
+```
