@@ -297,8 +297,8 @@
   "editor.minimap.renderCharacters": false,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.editor.tabSizing": "shrink",
   "terminal.integrated.fontSize": 13,
   "http.proxyAuthorization": null,
@@ -307,8 +307,7 @@
   "workbench.editor.enablePreview": false,
   "oneDarkPro.italic": false,
   "editor.tabSize": 2,
-  "svelte.enable-ts-plugin": true,
-  "window.zoomLevel": 1.5,
+	"svelte.enable-ts-plugin": true,
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
@@ -1546,7 +1545,7 @@
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": false,
   "window.customMenuBarAltFocus": false,
-  "window.enableMenuBarMnemonics": false,
+	"window.enableMenuBarMnemonics": false,
   "zenMode.hideActivityBar": false,
   "zenMode.fullScreen": false,
   "workbench.iconTheme": "vscode-icons",
@@ -1556,13 +1555,16 @@
     "editor.defaultFormatter": "ms-vscode.powershell"
   },
   "breadcrumbs.enabled": false,
-  "workbench.colorTheme": "Default Dark+",
+	"workbench.colorTheme": "Default Dark+",
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
-  },
-  "workbench.editor.showTabs": "none",
+	},
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
   },
-  "unsaved-files.viewOnExplorer.enabled": false
+	"unsaved-files.viewOnExplorer.enabled": false,
+	"editor.mouseWheelZoom": true,
+	"workbench.editor.showTabs": "none",
+	"go.toolsManagement.autoUpdate": true,
+	"window.zoomLevel": 1.5
 }
