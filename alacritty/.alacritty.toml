@@ -1,14 +1,14 @@
 [colors.primary]
-# background = "0x1f1f1f"
-background = "0x000000"
+background = "0x1f1f1f"
+# background = "0x000000"
 
 [font]
-size = 10.8
+size = 14
 
 
 [font.normal]
 family = "Hack Nerd Font Mono"
 
 [window]
-decorations = "None"
-startup_mode = "Windowed"
+# decorations = "None"
+startup_mode = "Maximized"
