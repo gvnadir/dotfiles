@@ -106,8 +106,11 @@ alias python="python3"
 alias vim=nvim
 alias lg=lazygit
 source /etc/zsh_command_not_found
-export PATH="$PATH:$HOME/.local/bin:$HOME/.cargo/env:$HOME/.local/share/bob/nvim-bin:$HOME/usr/local/go/bin"
+export PATH="$PATH:$HOME/.local/bin:$HOME/.cargo/env:$HOME/.local/share/bob/nvim-bin:/usr/local/go/bin"
 
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+
+# Needed for go-sqlite3
+export CGO_ENABLED=1 
