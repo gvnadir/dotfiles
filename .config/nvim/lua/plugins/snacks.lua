@@ -17,6 +17,9 @@ return {
           },
         },
       },
+      indent = {
+        enabled = false,
+      },
     },
     keys = {
       {
