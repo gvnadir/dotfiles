@@ -1,7 +1,7 @@
 general.import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
 
 [font]
-size = 14
+size = 13
 
 [font.normal]
 family = "GeistMono Nerd Font Mono"
@@ -9,3 +9,4 @@ family = "GeistMono Nerd Font Mono"
 [window]
 decorations = "None"
 startup_mode = "Maximized"
+opacity = 0.95
