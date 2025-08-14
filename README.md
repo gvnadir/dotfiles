@@ -1,4 +1,4 @@
-# Linux dotfiles
+# My dotfiles
 
 ## Install
 
